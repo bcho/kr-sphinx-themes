@@ -23,3 +23,11 @@ The following themes exist:
 **kr_small**
 	small one-page theme.  Intended to be used by very small addon libraries.
 
+
+Theme Options
+---------------
+
+kr
++++
+
+- **stickysidebar** (true or false): Make the sidebar "fixed" so that it doesn't scroll out of view for long body content. Defaults to false.

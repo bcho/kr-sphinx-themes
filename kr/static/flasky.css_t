@@ -38,6 +38,15 @@ div.bodywrapper {
 
 div.sphinxsidebar {
     width: {{ sidebar_width }};
+
+    {%- if theme_stickysidebar|tobool %}
+    top: 30px;
+    bottom: 0;
+    margin: 0;
+    position: fixed;
+    overflow: auto;
+    height: auto;
+    {%- endif %}
 }
 
 hr {
